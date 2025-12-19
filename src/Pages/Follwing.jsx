@@ -1,7 +1,6 @@
  import { useState , useEffect} from "react"
  import { Link } from "react-router-dom";
 import UserData from '../data/Userdata.js'
-import './App.css'
 
 export default function Following() {
     const [followingList, setFollowingList] = useState(() => {

@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom"
 import UserData from '../data/Userdata.js'
-import './App.css'
 
 export default function Profile() {
     const { userid } = useParams();
